@@ -73,6 +73,7 @@ int main() {
     
     printf("Search result: \n%d\n", position);
 
-
+    free(array);
+    
     return 0;
 }
