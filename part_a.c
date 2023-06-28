@@ -82,5 +82,8 @@ int main() {
     originalTarget = binaryToDecimal(convertedTarget);
     printf("\nOriginal target: \n%d\n", originalTarget);
 
+    free(array);
+    free(convertedArray);
+    
     return 0;
 }
